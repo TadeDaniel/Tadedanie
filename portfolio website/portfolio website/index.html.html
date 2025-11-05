@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olatade Alaba | Web Designer & Frontend Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="sss.css" />
+  </head>
+  <body>
+    <nav>
+      <h2>A-daniel code</h2>
+      <ul
+        style="
+          width: 600px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        "
+      >
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle">🌙</button>
+    </nav>
+
+    <section id="home" class="hero fade-in">
+      <h1>Hi, I'm <span>Tade Daniel</span>.</h1>
+      <h2>I build beautiful, fast, and responsive websites.</h2>
+      <p>
+        Freelance Web Designer & Frontend Developer helping businesses grow
+        online through clean design and modern code.
+      </p>
+      <a href="#projects" class="btn">View My Work</a>
+      <a href="#contact" class="btn btn-outline">Hire Me</a>
+    </section>
+
+    <section id="projects" class="fade-in">
+      <h2>🚀 Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <img src="images/Project1.png" alt="Project 1" />
+          <h3>Air logistics Website</h3>
+          <p>
+            Responsive design with Landing page, Input fields and about me
+            section.
+          </p>
+          <span class="tech">HTML, CSS, JavaScript</span>
+        </div>
+        <div class="project">
+          <img src="images/Project2.png" alt="Project 2" />
+          <h3>CSS framework Website</h3>
+          <p>
+            Bootstrap theme and CSS framework website with animations and smooth
+            scrolling.
+          </p>
+          <span class="tech">HTML, CSS, JS</span>
+        </div>
+        <div class="project">
+          <img src="images/Project3.png" alt="Project 3" />
+          <h3>E-commerce website</h3>
+          <p>
+            Professional layout for E-Commerce websites showing product, prices,
+            product, review and newsletter section.
+          </p>
+          <span class="tech">HTML, CSS, JavaScript</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="fade-in">
+      <h2 style="margin-bottom: 10px">About Me</h2>
+      <p style="margin-bottom: 30px">
+        I’m a self-taught web designer and frontend developer from Nigeria. I
+        specialize in creating mobile-friendly websites that help small
+        businesses stand out online. I value clean design, optimized
+        performance, and a user-first approach in every project I build.
+      </p>
+      <a
+        href="Alaba Olatade Daniel cv.docx"
+        class="btn"
+        style="margin-top: 20px"
+        >Download CV</a
+      >
+    </section>
+
+    <section id="services" class="fade-in">
+      <h2>Services</h2>
+      <ul>
+        <li style="margin-bottom: 10px; margin-top: 10px">
+          Website Design & Development
+        </li>
+        <li style="margin-bottom: 10px">Maintenance & Hosting Setup</li>
+        <li style="margin-bottom: 10px">Responsive UI Design</li>
+        <li style="margin-bottom: 10px">Bug Fixes & Optimization</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact fade-in">
+      <h2 style="margin-bottom: 10px">📞 Contact Me</h2>
+      <p>
+        Let's work together! Message me directly on
+        <a href="https://wa.me/+2349075792480" target="_blank">WhatsApp</a> or
+        send an email below:
+      </p>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <a href="#contact" class="sticky-hire">Hire Me </a>
+    <script src="my-script.js"></script>
+    <footer>© 2025 Olatade Alaba | Built with using HTML, CSS & JS</footer>
+  </body>
+</html>
